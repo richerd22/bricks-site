@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img">
+<rect width="1200" height="1200" fill="#E8EBE5"/>
+<rect x="0.5" y="0.5" width="1199" height="1199" fill="none" stroke="#C3C9C2"/>
+<polyline fill="none" stroke="#24508F" stroke-width="3" stroke-linejoin="round" points="740.1,110.0 691.8,392.0 763.1,435.5 826.9,440.8 712.8,670.1 536.7,817.6 373.1,1090.0"/>
+<g id="stop-invented-here-02"><circle cx="740.1" cy="110.0" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="740.1" y="110.0" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">01</text></g>
+<g id="stop-invented-here-03"><circle cx="691.8" cy="392.0" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="691.8" y="392.0" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">02</text></g>
+<g id="stop-invented-here-04"><circle cx="763.1" cy="435.5" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="763.1" y="435.5" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">03</text></g>
+<g id="stop-invented-here-05"><circle cx="826.9" cy="440.8" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="826.9" y="440.8" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">04</text></g>
+<g id="stop-invented-here-06"><circle cx="712.8" cy="670.1" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="712.8" y="670.1" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">05</text></g>
+<g id="stop-invented-here-07"><circle cx="536.7" cy="817.6" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="536.7" y="817.6" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">06</text></g>
+<g id="stop-invented-here-08"><circle cx="373.1" cy="1090.0" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="373.1" y="1090.0" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">07</text></g>
+</svg>

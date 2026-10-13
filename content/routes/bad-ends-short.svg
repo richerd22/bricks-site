@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img">
+<rect width="1200" height="1200" fill="#E8EBE5"/>
+<rect x="0.5" y="0.5" width="1199" height="1199" fill="none" stroke="#C3C9C2"/>
+<polyline fill="none" stroke="#24508F" stroke-width="3" stroke-linejoin="round" points="426.7,168.7 429.5,110.0 635.5,690.9 773.3,618.2 614.8,863.4 654.8,1090.0"/>
+<g id="stop-bad-ends-05"><circle cx="426.7" cy="168.7" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="426.7" y="168.7" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">01</text></g>
+<g id="stop-bad-ends-06"><circle cx="429.5" cy="110.0" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="429.5" y="110.0" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">02</text></g>
+<g id="stop-bad-ends-07"><circle cx="635.5" cy="690.9" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="635.5" y="690.9" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">03</text></g>
+<g id="stop-bad-ends-08"><circle cx="773.3" cy="618.2" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="773.3" y="618.2" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">04</text></g>
+<g id="stop-bad-ends-10"><circle cx="614.8" cy="863.4" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="614.8" y="863.4" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">05</text></g>
+<g id="stop-bad-ends-11"><circle cx="654.8" cy="1090.0" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="654.8" y="1090.0" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">06</text></g>
+</svg>

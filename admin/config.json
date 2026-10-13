@@ -1,0 +1,514 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "richerd22/offthebricks",
+    "branch": "main"
+  },
+  "site_url": "https://bricks.cold.fyi",
+  "display_url": "https://bricks.cold.fyi",
+  "media_folder": "content/cms-uploads",
+  "public_folder": "/cms-uploads",
+  "output": {
+    "omit_empty_optional_fields": true,
+    "json": {
+      "indent_style": "space",
+      "indent_size": 2
+    }
+  },
+  "collections": [
+    {
+      "name": "right-now",
+      "label": "Right now",
+      "description": "The RIGHT NOW rows on the site's home page and the app's Packs screen. At most two show at once, in file order; the file holds 12 rows at most, so delete rows whose dates have passed. Times are Boston time.",
+      "files": [
+        {
+          "name": "featured",
+          "label": "Right now (content/featured.json)",
+          "file": "content/featured.json",
+          "fields": [
+            {
+              "name": "rows",
+              "label": "Rows",
+              "widget": "list",
+              "root": true,
+              "max": 12,
+              "summary": "{{fields.line}}",
+              "fields": [
+                {
+                  "name": "pack_slug",
+                  "label": "Pack",
+                  "widget": "select",
+                  "required": false,
+                  "options": [
+                    {
+                      "label": "The 1852 Hunt (revealed)",
+                      "value": "the-1852-hunt"
+                    },
+                    {
+                      "label": "Under Boston (revealed)",
+                      "value": "under-boston"
+                    },
+                    {
+                      "label": "Bad Ends (revealed)",
+                      "value": "bad-ends"
+                    },
+                    {
+                      "label": "Odd Rooms (reveals Oct 26, 2026)",
+                      "value": "odd-rooms"
+                    },
+                    {
+                      "label": "Flight Path (reveals Nov 23, 2026)",
+                      "value": "flight-path"
+                    },
+                    {
+                      "label": "Made Land (reveals Nov 9, 2026)",
+                      "value": "made-land"
+                    },
+                    {
+                      "label": "Banned in Boston (revealed)",
+                      "value": "banned-in-boston"
+                    },
+                    {
+                      "label": "Big Scores (reveals Oct 19, 2026)",
+                      "value": "big-scores"
+                    },
+                    {
+                      "label": "Invented Here (reveals Nov 16, 2026)",
+                      "value": "invented-here"
+                    },
+                    {
+                      "label": "Loud Boston (reveals Nov 2, 2026)",
+                      "value": "loud-boston"
+                    },
+                    {
+                      "label": "Shot Here (revealed)",
+                      "value": "shot-here"
+                    }
+                  ],
+                  "hint": "Pick a pack or a collection, not both. A pack shows only once it's revealed."
+                },
+                {
+                  "name": "collection_id",
+                  "label": "Collection",
+                  "widget": "select",
+                  "required": false,
+                  "options": [
+                    {
+                      "label": "Legends Busted",
+                      "value": "legends-busted"
+                    },
+                    {
+                      "label": "Wrong Signs",
+                      "value": "wrong-signs"
+                    },
+                    {
+                      "label": "After Dark",
+                      "value": "after-dark"
+                    },
+                    {
+                      "label": "Under Your Feet",
+                      "value": "under-your-feet"
+                    },
+                    {
+                      "label": "Free Rooms",
+                      "value": "free-rooms"
+                    },
+                    {
+                      "label": "Rainy Day",
+                      "value": "rainy-day"
+                    },
+                    {
+                      "label": "Firsts (Contested)",
+                      "value": "firsts-contested"
+                    },
+                    {
+                      "label": "Crime Scenes",
+                      "value": "crime-scenes"
+                    }
+                  ],
+                  "hint": "A collection shows only while it has 4 or more stops in revealed packs."
+                },
+                {
+                  "widget": "datetime",
+                  "input_timezone": "America/New_York",
+                  "output_utc": true,
+                  "required": true,
+                  "name": "from",
+                  "label": "From (Boston time)"
+                },
+                {
+                  "widget": "datetime",
+                  "input_timezone": "America/New_York",
+                  "output_utc": true,
+                  "required": true,
+                  "name": "until",
+                  "label": "Until (Boston time, not included)"
+                },
+                {
+                  "name": "line",
+                  "label": "Line",
+                  "widget": "string",
+                  "required": true,
+                  "minlength": 10,
+                  "maxlength": 100,
+                  "pattern": [
+                    "^(?!.*(?:\\bsale\\b|\\bdeal\\b|\\blimited\\b|\\bhurry\\b|don't miss|don’t miss))[^!$%\\u2013\\u2014]*$",
+                    "No !, $, %, long dashes, sale, deal, limited, hurry or don't miss."
+                  ],
+                  "hint": "One dry line, 10 to 100 characters. No price, no countdown, never a memorial or a disaster anniversary."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "schedule",
+      "label": "Schedule",
+      "description": "When packs reveal. Each pack's own line (null or LAUNCH+Nd HH:MM) is kept as it is; to change one, use the GitHub editor link on /admin/corrections.",
+      "files": [
+        {
+          "name": "schedule",
+          "label": "Schedule (content/schedule.json)",
+          "file": "content/schedule.json",
+          "fields": [
+            {
+              "name": "timezone",
+              "label": "Time zone",
+              "widget": "string",
+              "required": true,
+              "readonly": true
+            },
+            {
+              "name": "launch",
+              "label": "Launch day",
+              "widget": "string",
+              "required": true,
+              "pattern": [
+                "^\\d{4}-\\d{2}-\\d{2}$",
+                "YYYY-MM-DD"
+              ],
+              "hint": "YYYY-MM-DD. Every LAUNCH+ pack counts from this day, at its time in the time zone above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "site",
+      "label": "Site settings",
+      "files": [
+        {
+          "name": "config",
+          "label": "Site settings (site/config.json)",
+          "file": "site/config.json",
+          "fields": [
+            {
+              "name": "site_url",
+              "label": "Site URL",
+              "widget": "string",
+              "required": true,
+              "readonly": true
+            },
+            {
+              "name": "app_id",
+              "label": "App Store app ID",
+              "widget": "string",
+              "required": false,
+              "pattern": [
+                "^\\d*$",
+                "Digits only"
+              ],
+              "hint": "Empty until the app record exists. Setting it turns on Walk it, Get the app and the Smart App Banner."
+            },
+            {
+              "name": "team_id",
+              "label": "Apple Team ID",
+              "widget": "string",
+              "required": true,
+              "hint": "Used by the Universal Links file. The app's entitlement must match."
+            },
+            {
+              "name": "noindex_stops",
+              "label": "Stops kept out of search",
+              "widget": "list",
+              "required": false,
+              "hint": "Stop ids such as odd-rooms-07. Delete one to let search engines index its page on the next build."
+            },
+            {
+              "name": "web_page_paths",
+              "label": "Web page paths",
+              "widget": "keyvalue",
+              "required": false,
+              "key_label": "Pack",
+              "value_label": "Path"
+            },
+            {
+              "name": "admin_repo",
+              "label": "GitHub repo for this admin",
+              "widget": "string",
+              "required": true,
+              "hint": "owner/name. Changing it moves where the admin saves."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "postcards",
+      "label": "Postcards",
+      "description": "The physical Alarm Club postcard offer. To stop it: close the Google Form first, then switch Offered off and save.",
+      "files": [
+        {
+          "name": "physical",
+          "label": "Alarm Club postcard set (content/rewards/postcards.json)",
+          "file": "content/rewards/postcards.json",
+          "fields": [
+            {
+              "name": "physical",
+              "label": "Physical postcards",
+              "widget": "object",
+              "required": true,
+              "fields": [
+                {
+                  "name": "name",
+                  "label": "Name",
+                  "widget": "string",
+                  "required": true,
+                  "readonly": true
+                },
+                {
+                  "name": "offered",
+                  "label": "Offered",
+                  "widget": "boolean",
+                  "required": true,
+                  "hint": "Off hides the button on every phone at its next sync."
+                },
+                {
+                  "name": "claim_url",
+                  "label": "Claim form URL",
+                  "widget": "string",
+                  "required": true,
+                  "pattern": [
+                    "^https://",
+                    "Starts with https://"
+                  ]
+                },
+                {
+                  "name": "copy",
+                  "label": "Copy",
+                  "widget": "object",
+                  "required": true,
+                  "fields": [
+                    {
+                      "name": "button",
+                      "label": "Button",
+                      "widget": "string",
+                      "required": true
+                    },
+                    {
+                      "name": "note",
+                      "label": "Note",
+                      "widget": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string",
+                      "required": true
+                    },
+                    {
+                      "name": "claimed_label",
+                      "label": "Label after the form is opened",
+                      "widget": "string",
+                      "required": true,
+                      "hint": "{date} is filled in by the app."
+                    },
+                    {
+                      "name": "claimed_note",
+                      "label": "Note after the form is opened",
+                      "widget": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "locked_line",
+                      "label": "Line before the first walk is finished",
+                      "widget": "text",
+                      "required": true
+                    }
+                  ]
+                },
+                {
+                  "name": "admin_note",
+                  "label": "How to stop the offer",
+                  "widget": "text",
+                  "required": true,
+                  "readonly": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engagement",
+      "label": "App notifications",
+      "description": "What the app's opt-in notifications say. They are scheduled on each phone: at most one every few days, daytime only. A change reaches phones at their next sync. No prices, no exclamation points, no long dashes.",
+      "files": [
+        {
+          "name": "engagement",
+          "label": "Notification copy (content/engagement.json)",
+          "file": "content/engagement.json",
+          "fields": [
+            {
+              "name": "_about",
+              "label": "About",
+              "widget": "text",
+              "required": true,
+              "readonly": true
+            },
+            {
+              "name": "notifications",
+              "label": "Notifications",
+              "widget": "object",
+              "required": true,
+              "fields": [
+                {
+                  "name": "new_walk",
+                  "label": "New walk",
+                  "widget": "object",
+                  "required": true,
+                  "hint": "On a pack's reveal day. {pack}, {subtitle}, {stops}, {minutes} are filled in.",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string",
+                      "required": true
+                    },
+                    {
+                      "name": "body",
+                      "label": "Body",
+                      "widget": "string",
+                      "required": true
+                    }
+                  ]
+                },
+                {
+                  "name": "right_now",
+                  "label": "Seasonal pick",
+                  "widget": "object",
+                  "required": true,
+                  "hint": "The morning after a Right now row starts. {title} and {line} are filled in.",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string",
+                      "required": true
+                    },
+                    {
+                      "name": "body",
+                      "label": "Body",
+                      "widget": "string",
+                      "required": true
+                    }
+                  ]
+                },
+                {
+                  "name": "nudge",
+                  "label": "Nudge",
+                  "widget": "object",
+                  "required": true,
+                  "hint": "Once per walk, a few days after the player stopped. {pack}, {n}, {count} are filled in.",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string",
+                      "required": true
+                    },
+                    {
+                      "name": "body",
+                      "label": "Body",
+                      "widget": "string",
+                      "required": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ask",
+              "label": "The ask",
+              "widget": "object",
+              "required": true,
+              "fields": [
+                {
+                  "name": "button",
+                  "label": "Button",
+                  "widget": "string",
+                  "required": true,
+                  "hint": "Shown on Packs, the Finale and Settings until the player answers."
+                },
+                {
+                  "name": "line",
+                  "label": "Line under it",
+                  "widget": "text",
+                  "required": true
+                }
+              ]
+            },
+            {
+              "name": "rules",
+              "label": "Rules",
+              "widget": "object",
+              "required": true,
+              "fields": [
+                {
+                  "name": "min_days_between",
+                  "label": "Days between notes (at least)",
+                  "widget": "number",
+                  "value_type": "int",
+                  "min": 3,
+                  "max": 30,
+                  "required": true
+                },
+                {
+                  "name": "window_start_hour",
+                  "label": "Earliest hour",
+                  "widget": "number",
+                  "value_type": "int",
+                  "min": 8,
+                  "max": 12,
+                  "required": true
+                },
+                {
+                  "name": "window_end_hour",
+                  "label": "Latest hour",
+                  "widget": "number",
+                  "value_type": "int",
+                  "min": 15,
+                  "max": 21,
+                  "required": true
+                },
+                {
+                  "name": "nudge_after_days",
+                  "label": "Nudge after (days idle)",
+                  "widget": "number",
+                  "value_type": "int",
+                  "min": 2,
+                  "max": 14,
+                  "required": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

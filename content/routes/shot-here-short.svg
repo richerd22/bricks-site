@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img">
+<rect width="1200" height="1200" fill="#E8EBE5"/>
+<rect x="0.5" y="0.5" width="1199" height="1199" fill="none" stroke="#C3C9C2"/>
+<polyline fill="none" stroke="#24508F" stroke-width="3" stroke-linejoin="round" points="147.0,375.4 110.0,618.5 258.6,679.3 173.9,824.6 863.4,420.1 1090.0,522.9"/>
+<g id="stop-shot-here-03"><circle cx="147.0" cy="375.4" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="147.0" y="375.4" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">01</text></g>
+<g id="stop-shot-here-04"><circle cx="110.0" cy="618.5" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="110.0" y="618.5" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">02</text></g>
+<g id="stop-shot-here-05"><circle cx="258.6" cy="679.3" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="258.6" y="679.3" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">03</text></g>
+<g id="stop-shot-here-06"><circle cx="173.9" cy="824.6" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="173.9" y="824.6" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">04</text></g>
+<g id="stop-shot-here-07"><circle cx="863.4" cy="420.1" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="863.4" y="420.1" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">05</text></g>
+<g id="stop-shot-here-08"><circle cx="1090.0" cy="522.9" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="1090.0" y="522.9" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">06</text></g>
+</svg>

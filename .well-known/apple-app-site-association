@@ -1,0 +1,26 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "6GCWN8E5NQ.fyi.cold.offthebricks"
+        ],
+        "components": [
+          {
+            "/": "/content/*",
+            "exclude": true,
+            "comment": "the feed holds the answers; never route it to the app"
+          },
+          {
+            "/": "/hunts/*",
+            "comment": "pack and stop pages"
+          },
+          {
+            "/": "/p/*",
+            "comment": "poster QR path (section 4)"
+          }
+        ]
+      }
+    ]
+  }
+}

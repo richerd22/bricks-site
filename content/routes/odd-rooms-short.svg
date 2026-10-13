@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img">
+<rect width="1200" height="1200" fill="#E8EBE5"/>
+<rect x="0.5" y="0.5" width="1199" height="1199" fill="none" stroke="#C3C9C2"/>
+<polyline fill="none" stroke="#24508F" stroke-width="3" stroke-linejoin="round" points="982.6,241.7 1090.0,279.5 976.3,554.9 509.3,733.1 311.7,814.1 110.0,958.3"/>
+<g id="stop-odd-rooms-03"><circle cx="982.6" cy="241.7" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="982.6" y="241.7" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">01</text></g>
+<g id="stop-odd-rooms-04"><circle cx="1090.0" cy="279.5" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="1090.0" y="279.5" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">02</text></g>
+<g id="stop-odd-rooms-05"><circle cx="976.3" cy="554.9" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="976.3" y="554.9" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">03</text></g>
+<g id="stop-odd-rooms-07"><circle cx="509.3" cy="733.1" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="509.3" y="733.1" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">04</text></g>
+<g id="stop-odd-rooms-08"><circle cx="311.7" cy="814.1" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="311.7" y="814.1" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">05</text></g>
+<g id="stop-odd-rooms-10"><circle cx="110.0" cy="958.3" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="110.0" y="958.3" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">06</text></g>
+</svg>

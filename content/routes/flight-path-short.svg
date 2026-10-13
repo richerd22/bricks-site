@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img">
+<rect width="1200" height="1200" fill="#E8EBE5"/>
+<rect x="0.5" y="0.5" width="1199" height="1199" fill="none" stroke="#C3C9C2"/>
+<polyline fill="none" stroke="#24508F" stroke-width="3" stroke-linejoin="round" points="110.0,822.6 287.6,680.3 324.5,719.4 587.6,529.6 1090.0,377.4"/>
+<g id="stop-flight-path-08"><circle cx="110.0" cy="822.6" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="110.0" y="822.6" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">01</text></g>
+<g id="stop-flight-path-09"><circle cx="287.6" cy="680.3" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="287.6" y="680.3" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">02</text></g>
+<g id="stop-flight-path-10"><circle cx="324.5" cy="719.4" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="324.5" y="719.4" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">03</text></g>
+<g id="stop-flight-path-11"><circle cx="587.6" cy="529.6" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="587.6" y="529.6" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">04</text></g>
+<g id="stop-flight-path-12"><circle cx="1090.0" cy="377.4" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="1090.0" y="377.4" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">05</text></g>
+</svg>

@@ -1,0 +1,544 @@
+{
+ "schema_version": 2,
+ "generated": "2026-10-13T05:18:51Z",
+ "min_app_build": 1,
+ "packs": [
+  {
+   "slug": "the-1852-hunt",
+   "pack_number": 0,
+   "version": "b1351c96d9c0",
+   "sha256": "b1351c96d9c0ed81c15e13414df88fe6e170e1b348c0d66d097fe4549194901c",
+   "bytes": 186139,
+   "url": "packs/the-1852-hunt.json",
+   "price_tier": "free",
+   "product_id": null,
+   "reveal_at": null
+  },
+  {
+   "slug": "under-boston",
+   "pack_number": 1,
+   "version": "af5d288de6b4",
+   "sha256": "af5d288de6b443a018febeeb4b176ff1c0eccaf5dbc049649fbadd532bbf20dc",
+   "bytes": 203515,
+   "url": "packs/under-boston.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.under_boston",
+   "reveal_at": null
+  },
+  {
+   "slug": "bad-ends",
+   "pack_number": 2,
+   "version": "495217456db1",
+   "sha256": "495217456db1bc1febfc247b0db166708cfc7cfeec6e14fd30cee237f0aae038",
+   "bytes": 208575,
+   "url": "packs/bad-ends.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.bad_ends",
+   "reveal_at": null
+  },
+  {
+   "slug": "odd-rooms",
+   "pack_number": 3,
+   "version": "1f499c28c25d",
+   "sha256": "1f499c28c25d77a8fbd09eee619d30cf37609cd0efc325c0d2b2abee3a5330cf",
+   "bytes": 205521,
+   "url": "packs/odd-rooms.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.odd_rooms",
+   "reveal_at": "2026-10-26T14:00:00Z"
+  },
+  {
+   "slug": "flight-path",
+   "pack_number": 4,
+   "version": "8f607dac6173",
+   "sha256": "8f607dac617311b4e169db153b737b1b76d1f1add9af9a20b4042b60b357c8bc",
+   "bytes": 188401,
+   "url": "packs/flight-path.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.flight_path",
+   "reveal_at": "2026-11-23T15:00:00Z"
+  },
+  {
+   "slug": "made-land",
+   "pack_number": 5,
+   "version": "1528fe47cc7e",
+   "sha256": "1528fe47cc7ecd3464e2c32fa7a42e4c92d72472c6583319abf372f51f9fae40",
+   "bytes": 179039,
+   "url": "packs/made-land.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.made_land",
+   "reveal_at": "2026-11-09T15:00:00Z"
+  },
+  {
+   "slug": "banned-in-boston",
+   "pack_number": 6,
+   "version": "437649837bdf",
+   "sha256": "437649837bdf1e2560c4a907df644c100417018f43917d1d122333c82a5ed745",
+   "bytes": 162862,
+   "url": "packs/banned-in-boston.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.banned_in_boston",
+   "reveal_at": null
+  },
+  {
+   "slug": "big-scores",
+   "pack_number": 7,
+   "version": "7d3d6757c0ec",
+   "sha256": "7d3d6757c0ecc86d0a8b5fc6d00f1e0315edf7d2e9bab19ef3813311993147c5",
+   "bytes": 161038,
+   "url": "packs/big-scores.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.big_scores",
+   "reveal_at": "2026-10-19T14:00:00Z"
+  },
+  {
+   "slug": "invented-here",
+   "pack_number": 8,
+   "version": "4b547fdfc79e",
+   "sha256": "4b547fdfc79e6c84b6a6a1789b41f589e24f9c2b42592263a13078c89e264ac5",
+   "bytes": 177262,
+   "url": "packs/invented-here.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.invented_here",
+   "reveal_at": "2026-11-16T15:00:00Z"
+  },
+  {
+   "slug": "loud-boston",
+   "pack_number": 9,
+   "version": "969d44ba1cef",
+   "sha256": "969d44ba1cefe07ec8f7cae774084bfbc8fd635375ffd6905c3f9c294dad5f78",
+   "bytes": 165494,
+   "url": "packs/loud-boston.json",
+   "price_tier": "pack",
+   "product_id": "fyi.cold.offthebricks.pack.loud_boston",
+   "reveal_at": "2026-11-02T15:00:00Z"
+  },
+  {
+   "slug": "shot-here",
+   "pack_number": 10,
+   "version": "a3544941db3a",
+   "sha256": "a3544941db3a552e6f820071af8815f6d4e3c6d608bab774724acf1794eba97c",
+   "bytes": 163427,
+   "url": "packs/shot-here.json",
+   "price_tier": "free",
+   "product_id": null,
+   "reveal_at": null
+  }
+ ],
+ "postcards": {
+  "version": "f5c66a3925ed",
+  "sha256": "f5c66a3925ede3e9e714b4181911361a2d10732252588e11aeb84305a1ecc42e",
+  "bytes": 32620,
+  "url": "postcards.json"
+ },
+ "collections": {
+  "version": "7334e37a48da",
+  "sha256": "7334e37a48da92c04b8345e3a04ad6cf39f52202b206223485acedc5e3e936cf",
+  "bytes": 6622,
+  "url": "collections.json"
+ },
+ "images": [
+  {
+   "key": "bad-ends-02-then",
+   "url": "images/bad-ends-02-then.jpg",
+   "sha256": "b79ef393d4372a76dc3cc4018b03384de47b3bf540b538e17c2687fa7e56ddb5",
+   "bytes": 675778,
+   "width": 1545,
+   "height": 2000
+  },
+  {
+   "key": "bad-ends-02",
+   "url": "images/bad-ends-02.jpg",
+   "sha256": "b79ef393d4372a76dc3cc4018b03384de47b3bf540b538e17c2687fa7e56ddb5",
+   "bytes": 675778,
+   "width": 1545,
+   "height": 2000
+  },
+  {
+   "key": "bad-ends-10-then",
+   "url": "images/bad-ends-10-then.jpg",
+   "sha256": "ecb4b0fdcdf4c5f715b764b0c52bdf9398199e28f9eb57749da7a2a5040d2950",
+   "bytes": 169982,
+   "width": 1024,
+   "height": 508
+  },
+  {
+   "key": "bad-ends-10",
+   "url": "images/bad-ends-10.jpg",
+   "sha256": "ecb4b0fdcdf4c5f715b764b0c52bdf9398199e28f9eb57749da7a2a5040d2950",
+   "bytes": 169982,
+   "width": 1024,
+   "height": 508
+  },
+  {
+   "key": "bad-ends-13-then",
+   "url": "images/bad-ends-13-then.jpg",
+   "sha256": "798ae303a76cec9695948a6fa94c995de05ad5d62c36615825244684088142f0",
+   "bytes": 243503,
+   "width": 806,
+   "height": 1024
+  },
+  {
+   "key": "bad-ends-13",
+   "url": "images/bad-ends-13.jpg",
+   "sha256": "798ae303a76cec9695948a6fa94c995de05ad5d62c36615825244684088142f0",
+   "bytes": 243503,
+   "width": 806,
+   "height": 1024
+  },
+  {
+   "key": "banned-in-boston-02-then",
+   "url": "images/banned-in-boston-02-then.jpg",
+   "sha256": "dac371e3ff0a4c5f79aeff40db7e5ae4b165fe6764682831177d30f093e45e76",
+   "bytes": 376274,
+   "width": 2000,
+   "height": 1562
+  },
+  {
+   "key": "banned-in-boston-04-then",
+   "url": "images/banned-in-boston-04-then.jpg",
+   "sha256": "008e2c982c476738008b302e379948e34b14bdc5aa2de204c2a3faf914453b02",
+   "bytes": 480807,
+   "width": 1751,
+   "height": 2000
+  },
+  {
+   "key": "banned-in-boston-09",
+   "url": "images/banned-in-boston-09.jpg",
+   "sha256": "52a733eb2bd909252eafa9f766486733a4f21a91bddbfa940904cdc0bf7fd7f8",
+   "bytes": 515522,
+   "width": 1799,
+   "height": 2000
+  },
+  {
+   "key": "flight-path-06",
+   "url": "images/flight-path-06.jpg",
+   "sha256": "9c2b6d0202f53940fdc3abe732adb0e462a75006a2a29677f346ff4919e8d128",
+   "bytes": 321621,
+   "width": 2000,
+   "height": 1463
+  },
+  {
+   "key": "flight-path-08",
+   "url": "images/flight-path-08.jpg",
+   "sha256": "cc583ca12c0ac37b533203582a32315083c266625c97cd6b3a1a5ade35a3db8d",
+   "bytes": 540085,
+   "width": 2000,
+   "height": 1570
+  },
+  {
+   "key": "flight-path-09",
+   "url": "images/flight-path-09.jpg",
+   "sha256": "5803e1c3ed9410cc4bf024ad043274799c649a275e46544179f9c0615b535c37",
+   "bytes": 398682,
+   "width": 2000,
+   "height": 1124
+  },
+  {
+   "key": "loud-boston-02-then",
+   "url": "images/loud-boston-02-then.jpg",
+   "sha256": "f44c231ede2d081f77bec8b96f68c34254197db53ec52dfbd212bdc60c478f38",
+   "bytes": 155133,
+   "width": 810,
+   "height": 1024
+  },
+  {
+   "key": "loud-boston-02",
+   "url": "images/loud-boston-02.jpg",
+   "sha256": "f44c231ede2d081f77bec8b96f68c34254197db53ec52dfbd212bdc60c478f38",
+   "bytes": 155133,
+   "width": 810,
+   "height": 1024
+  },
+  {
+   "key": "loud-boston-09",
+   "url": "images/loud-boston-09.jpg",
+   "sha256": "48819c097708d1aa268551e6545efbedbc3dbec92d5cb03bf109a2782905708f",
+   "bytes": 161186,
+   "width": 1024,
+   "height": 805
+  },
+  {
+   "key": "made-land-01-then",
+   "url": "images/made-land-01-then.jpg",
+   "sha256": "35f8b15213cd50f63d462fabfcfcdaccb49854e7e85d6a99d8e01ff47fae3a20",
+   "bytes": 287532,
+   "width": 2000,
+   "height": 1582
+  },
+  {
+   "key": "made-land-01",
+   "url": "images/made-land-01.jpg",
+   "sha256": "35f8b15213cd50f63d462fabfcfcdaccb49854e7e85d6a99d8e01ff47fae3a20",
+   "bytes": 287532,
+   "width": 2000,
+   "height": 1582
+  },
+  {
+   "key": "made-land-05-then",
+   "url": "images/made-land-05-then.jpg",
+   "sha256": "46d13b1233cd596b5bc90c7983653dbd6f84d1ec9ea8f4496344880618df2eb4",
+   "bytes": 627218,
+   "width": 2000,
+   "height": 1448
+  },
+  {
+   "key": "made-land-05",
+   "url": "images/made-land-05.jpg",
+   "sha256": "46d13b1233cd596b5bc90c7983653dbd6f84d1ec9ea8f4496344880618df2eb4",
+   "bytes": 627218,
+   "width": 2000,
+   "height": 1448
+  },
+  {
+   "key": "made-land-09",
+   "url": "images/made-land-09.jpg",
+   "sha256": "a221b59ac49a780117ddebf5675d382b5b963d733a2e6165f8b6b8a6a75611ba",
+   "bytes": 556518,
+   "width": 2000,
+   "height": 1559
+  },
+  {
+   "key": "made-land-d1",
+   "url": "images/made-land-d1.jpg",
+   "sha256": "3bb97fb62a36490891fd11fa9e22eb859f0f23f5d93f4144ee9e303cf96f43b4",
+   "bytes": 718088,
+   "width": 2000,
+   "height": 1926
+  },
+  {
+   "key": "otb-pc-01-box-that-was-late",
+   "url": "images/otb-pc-01-box-that-was-late.jpg",
+   "sha256": "cd0e629519f739b34b1d2977800e98cab333b2effeabebac6b42eeca862754de",
+   "bytes": 394758,
+   "width": 2000,
+   "height": 1180
+  },
+  {
+   "key": "otb-pc-02-not-injured",
+   "url": "images/otb-pc-02-not-injured.jpg",
+   "sha256": "f51e9e66036fb3df7b6c5c821e127eee286f88e99846c18dced50a9a81126f22",
+   "bytes": 615775,
+   "width": 2000,
+   "height": 1602
+  },
+  {
+   "key": "otb-pc-03-no-humbug",
+   "url": "images/otb-pc-03-no-humbug.jpg",
+   "sha256": "5d33d6dbc553a5186fd46aba4a1d53889ca6b53547bcffe9336de51727e5993d",
+   "bytes": 441779,
+   "width": 1580,
+   "height": 1229
+  },
+  {
+   "key": "otb-pc-04-odor-map",
+   "url": "images/otb-pc-04-odor-map.jpg",
+   "sha256": "a221b59ac49a780117ddebf5675d382b5b963d733a2e6165f8b6b8a6a75611ba",
+   "bytes": 556518,
+   "width": 2000,
+   "height": 1559
+  },
+  {
+   "key": "otb-pc-05-cinder-strips",
+   "url": "images/otb-pc-05-cinder-strips.jpg",
+   "sha256": "9c2b6d0202f53940fdc3abe732adb0e462a75006a2a29677f346ff4919e8d128",
+   "bytes": 321621,
+   "width": 2000,
+   "height": 1463
+  },
+  {
+   "key": "otb-pc-06-two-roles",
+   "url": "images/otb-pc-06-two-roles.jpg",
+   "sha256": "ef028e7f6432d463eb225ce63de1f0dfbdafd1b4bae08571ee8063f471b78e1b",
+   "bytes": 687559,
+   "width": 2000,
+   "height": 1586
+  },
+  {
+   "key": "otb-pc-07-one-copy",
+   "url": "images/otb-pc-07-one-copy.jpg",
+   "sha256": "dac371e3ff0a4c5f79aeff40db7e5ae4b165fe6764682831177d30f093e45e76",
+   "bytes": 376274,
+   "width": 2000,
+   "height": 1562
+  },
+  {
+   "key": "otb-pc-08-ponzi-was-late",
+   "url": "images/otb-pc-08-ponzi-was-late.jpg",
+   "sha256": "fb68722a26d6417b907db03db2a8299845decf775c548798f0dc5b12461e8dc5",
+   "bytes": 651221,
+   "width": 2000,
+   "height": 1509
+  },
+  {
+   "key": "otb-pc-09-codnapped",
+   "url": "images/otb-pc-09-codnapped.jpg",
+   "sha256": "4335339e86808283fc54b37c0668e7a7bbaa4e7bba51328b3d06f674b205c27e",
+   "bytes": 604880,
+   "width": 2000,
+   "height": 1580
+  },
+  {
+   "key": "otb-pc-10-front-door",
+   "url": "images/otb-pc-10-front-door.jpg",
+   "sha256": "2f48bcd418b6bddecd09eb98eca0001bbd5d6707276856e0926192f82e78c11d",
+   "bytes": 519166,
+   "width": 2000,
+   "height": 1572
+  },
+  {
+   "key": "otb-pc-11-chef-who-never-was",
+   "url": "images/otb-pc-11-chef-who-never-was.jpg",
+   "sha256": "67f4759a3f3fea6799772af9e558a36d2422adc0055badfa16dcbce4e08765a0",
+   "bytes": 426734,
+   "width": 2000,
+   "height": 1014
+  },
+  {
+   "key": "the-1852-hunt-01",
+   "url": "images/the-1852-hunt-01.jpg",
+   "sha256": "89bf60024efa7693607dbbb118e6774016facc907f20316bccb446fec400e1cc",
+   "bytes": 874220,
+   "width": 2000,
+   "height": 1569
+  },
+  {
+   "key": "the-1852-hunt-03-then",
+   "url": "images/the-1852-hunt-03-then.jpg",
+   "sha256": "c00c102e27e7ffa39886c5c67c8b1cf89d68159809ac314961ad150941a860b8",
+   "bytes": 391380,
+   "width": 2000,
+   "height": 1003
+  },
+  {
+   "key": "the-1852-hunt-04-then",
+   "url": "images/the-1852-hunt-04-then.jpg",
+   "sha256": "6f91ed258d34afd2f716469060c2387e3b54b8a8d52c5dd3a100c6bb6cd1676b",
+   "bytes": 374875,
+   "width": 2000,
+   "height": 996
+  },
+  {
+   "key": "the-1852-hunt-04",
+   "url": "images/the-1852-hunt-04.jpg",
+   "sha256": "cd0e629519f739b34b1d2977800e98cab333b2effeabebac6b42eeca862754de",
+   "bytes": 394758,
+   "width": 2000,
+   "height": 1180
+  },
+  {
+   "key": "the-1852-hunt-06-then",
+   "url": "images/the-1852-hunt-06-then.jpg",
+   "sha256": "65d4f5d2bd4ae65612a079c23b9005ab34e4b5b40d40ac848ceba5b932831373",
+   "bytes": 441119,
+   "width": 2000,
+   "height": 1495
+  },
+  {
+   "key": "the-1852-hunt-07-then",
+   "url": "images/the-1852-hunt-07-then.jpg",
+   "sha256": "e6474bca2dceba13f7b4d9928a9e86f76b82ef4fe7cfb09c480c648e022bda42",
+   "bytes": 537665,
+   "width": 2000,
+   "height": 1601
+  },
+  {
+   "key": "the-1852-hunt-09",
+   "url": "images/the-1852-hunt-09.jpg",
+   "sha256": "7bce46fbfe0805924d00a30bf3299d89c1a2434b775c9557ae78c04767f0353a",
+   "bytes": 774478,
+   "width": 2000,
+   "height": 1385
+  },
+  {
+   "key": "under-boston-11-then",
+   "url": "images/under-boston-11-then.jpg",
+   "sha256": "5636a84f9a7ae80179d574539b694e50cf66614531185cda6f87947678ef3876",
+   "bytes": 617282,
+   "width": 2000,
+   "height": 1595
+  },
+  {
+   "key": "under-boston-11",
+   "url": "images/under-boston-11.jpg",
+   "sha256": "f51e9e66036fb3df7b6c5c821e127eee286f88e99846c18dced50a9a81126f22",
+   "bytes": 615775,
+   "width": 2000,
+   "height": 1602
+  }
+ ],
+ "featured": [
+  {
+   "collection_id": "after-dark",
+   "from": "2026-10-01T04:00:00Z",
+   "until": "2026-11-01T04:00:00Z",
+   "line": "The answers still read at 9 p.m. Bring a phone light."
+  },
+  {
+   "pack_slug": "bad-ends",
+   "from": "2026-10-01T04:00:00Z",
+   "until": "2026-11-01T04:00:00Z",
+   "line": "Molasses, gallows and grave robbers. It's the month for it."
+  },
+  {
+   "collection_id": "after-dark",
+   "from": "2026-11-01T04:00:00Z",
+   "until": "2027-01-02T05:00:00Z",
+   "line": "The sun sets before five now. Every answer here still reads at 9 p.m."
+  },
+  {
+   "pack_slug": "under-boston",
+   "from": "2026-12-26T05:00:00Z",
+   "until": "2027-01-02T05:00:00Z",
+   "line": "New Year's Day 1875: boys climbed out of a kettle on Court Street, then the city measured it."
+  },
+  {
+   "pack_slug": "big-scores",
+   "from": "2027-01-10T05:00:00Z",
+   "until": "2027-01-18T05:00:00Z",
+   "line": "January 17 is the Brink's anniversary. About twenty minutes, and the building is still there."
+  },
+  {
+   "pack_slug": "loud-boston",
+   "from": "2027-02-07T05:00:00Z",
+   "until": "2027-02-15T05:00:00Z",
+   "line": "Valentine's week: old music rooms, then Wally's, which has live music nightly. Check first."
+  },
+  {
+   "pack_slug": "invented-here",
+   "from": "2027-03-03T05:00:00Z",
+   "until": "2027-03-11T05:00:00Z",
+   "line": "Bell's notebook and Watson's memory disagree on the telephone's first words. March 10 is the day."
+  },
+  {
+   "pack_slug": "big-scores",
+   "from": "2027-03-12T05:00:00Z",
+   "until": "2027-03-18T04:00:00Z",
+   "line": "On Evacuation Day 1889, someone lowering a flag knocked Faneuil Hall's weathervane down."
+  },
+  {
+   "pack_slug": "odd-rooms",
+   "from": "2027-04-19T04:00:00Z",
+   "until": "2027-04-27T04:00:00Z",
+   "line": "April 26, 1933: the Harvard Lampoon walked the Sacred Cod out of the State House."
+  },
+  {
+   "pack_slug": "banned-in-boston",
+   "from": "2027-06-01T04:00:00Z",
+   "until": "2027-07-01T04:00:00Z",
+   "line": "Boston's first Pride march started at a Bay Village door in 1971. This walk ends there."
+  },
+  {
+   "collection_id": "under-your-feet",
+   "from": "2027-06-21T04:00:00Z",
+   "until": "2027-09-07T04:00:00Z",
+   "line": "Tunnels, mail tubes and buried shoreline. On a hot day, go before ten."
+  },
+  {
+   "pack_slug": "flight-path",
+   "from": "2027-07-15T04:00:00Z",
+   "until": "2027-07-23T04:00:00Z",
+   "line": "July 22, 1927: Lindbergh flew into the airfield under today's Logan. A bronze on Lewis Mall says so."
+  }
+ ]
+}

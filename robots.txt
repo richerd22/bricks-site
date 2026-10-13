@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /content/
+
+Sitemap: https://bricks.cold.fyi/sitemap.xml

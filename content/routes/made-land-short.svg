@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img">
+<rect width="1200" height="1200" fill="#E8EBE5"/>
+<rect x="0.5" y="0.5" width="1199" height="1199" fill="none" stroke="#C3C9C2"/>
+<polyline fill="none" stroke="#24508F" stroke-width="3" stroke-linejoin="round" points="1090.0,356.4 1009.9,567.9 724.8,688.0 640.8,792.3 496.3,843.6 110.0,743.8"/>
+<g id="stop-made-land-01"><circle cx="1090.0" cy="356.4" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="1090.0" y="356.4" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">01</text></g>
+<g id="stop-made-land-02"><circle cx="1009.9" cy="567.9" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="1009.9" y="567.9" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">02</text></g>
+<g id="stop-made-land-03"><circle cx="724.8" cy="688.0" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="724.8" y="688.0" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">03</text></g>
+<g id="stop-made-land-04"><circle cx="640.8" cy="792.3" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="640.8" y="792.3" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">04</text></g>
+<g id="stop-made-land-05"><circle cx="496.3" cy="843.6" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="496.3" y="843.6" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">05</text></g>
+<g id="stop-made-land-06"><circle cx="110.0" cy="743.8" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="110.0" y="743.8" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">06</text></g>
+</svg>

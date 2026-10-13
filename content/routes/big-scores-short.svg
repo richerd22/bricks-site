@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img">
+<rect width="1200" height="1200" fill="#E8EBE5"/>
+<rect x="0.5" y="0.5" width="1199" height="1199" fill="none" stroke="#C3C9C2"/>
+<polyline fill="none" stroke="#24508F" stroke-width="3" stroke-linejoin="round" points="1090.0,202.3 273.2,694.0 150.6,687.6 126.4,832.3 173.5,997.7 110.0,984.7"/>
+<g id="stop-big-scores-07"><circle cx="1090.0" cy="202.3" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="1090.0" y="202.3" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">01</text></g>
+<g id="stop-big-scores-08"><circle cx="273.2" cy="694.0" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="273.2" y="694.0" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">02</text></g>
+<g id="stop-big-scores-09"><circle cx="150.6" cy="687.6" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="150.6" y="687.6" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">03</text></g>
+<g id="stop-big-scores-10"><circle cx="126.4" cy="832.3" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="126.4" y="832.3" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">04</text></g>
+<g id="stop-big-scores-11"><circle cx="173.5" cy="997.7" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="173.5" y="997.7" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">05</text></g>
+<g id="stop-big-scores-12"><circle cx="110.0" cy="984.7" r="22" fill="#E8EBE5" stroke="#24508F" stroke-width="3"/><text x="110.0" y="984.7" dy="0.36em" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="500" fill="#17191B">06</text></g>
+</svg>
