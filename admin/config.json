@@ -217,7 +217,7 @@
               "widget": "boolean",
               "required": false,
               "default": false,
-              "hint": "Switch on the day the app is released. It turns on every app link on the site: Walk it, Get the app and the Smart App Banner."
+              "hint": "Usually not needed: every build asks Apple whether the app is live and turns the app links on by itself. This forces them on."
             },
             {
               "name": "app_id",
